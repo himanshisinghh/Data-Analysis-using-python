@@ -1,0 +1,60 @@
+    Working on Real Project with Python (Big Data Analysis)
+
+    The Weather Dataset
+    Hi,The following Weather Dataset is time series data set with per-hour information about the weather conditions at a particular location.It records Temperature, Dew Point Temperature, Relative Humidity, Wind Speed, Visibility, Pressure and Conditions.
+    The data is available as a CSV file and we will analyze this data set using the Pandas DataFrame.
+    
+    Importing all important liberaries.
+    import pandas as pd
+    
+    TO Analze the DataFrames we use following functions:
+    
+    data.head
+    data.shape
+    data.index
+    data.columns
+    data.dtypes
+    data.unique
+    data.nunique
+    data.count
+    data.value_counts
+    data.info
+    
+    We will solve the following question and anayze this dataset:
+    
+    1. Find all the unique 'Wind Speeed' values in the data.
+    2. Find the numer of times when the 'Weather is exactly Clear'.
+    3. Find the number of times when the 'Wind Speed was exaclty 4 km/h'.
+    4. Find out all the Null Values in the data.
+    5. Rename the column name 'Weather' of the dataframe to 'Weather Condition'.
+    6. What is the mean 'Visibility'?
+    7. What is the Standard Deviation of 'Pressure' in this data?
+    8. What is the Variance of 'Relative Humidity' in this data?
+    9. Find all instances when 'Snow' was recorded.
+    10. Find all instances when 'Wind Speed is above 24'and 'Visibility is 25'.
+    11. What is the Mean value of each column against each 'Weather Condition'?
+    12. What is the Minimum & Maximum value of each column against each 'Weather Condition'?
+    13. Show all the Records where Weather Condition is Fog.
+    14. Find all instances when 'Weather is Clear' or 'Visibility is above 40'.
+    15. Find all instances when :
+    A. 'Weather is Clear' and 'Relative Humidity is greater than 50'
+    or
+    
+    B. 'Visibility is above 40'
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
